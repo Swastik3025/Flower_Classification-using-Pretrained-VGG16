@@ -40,8 +40,8 @@ model = st.session_state["model"]
 
 st.write('# :blue[Flower Class Predictor]')
 st.write("##### *Upload image and I will Predict!!!*")
-path='App\lower.jpg'
-st.image('lower.jpg', caption=None)
+path='https://e0.pxfuel.com/wallpapers/450/958/desktop-wallpaper-garden-flowers-colorful-garden-beautiful-grass-summer-pretty-field-freshness-flowers.jpg'
+st.image(path, caption=None)
 
 st.info('Please upload Flower image only!', icon="ℹ️")
 
