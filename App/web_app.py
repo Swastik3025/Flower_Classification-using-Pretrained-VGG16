@@ -40,8 +40,8 @@ model = st.session_state["model"]
 
 st.write('# :blue[Flower Class Predictor]')
 st.write("##### *Upload image and I will Predict!!!*")
-
-st.image("flower.jpg", caption=None)
+path='App\flower.jpg'
+st.image(path, caption=None)
 
 st.info('Please upload Flower image only!', icon="ℹ️")
 
